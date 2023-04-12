@@ -1,0 +1,1 @@
+https://stasholo.github.io/auth-html/
