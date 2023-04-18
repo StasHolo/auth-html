@@ -20,8 +20,8 @@ top: 50%;
 }
 .block-input input{
   
-  height: 30px;
-  width: 180px;
+  height: 8vh;
+  width: 17vw;
   margin-left: 20px;
   border-style: hidden;
 }
@@ -43,7 +43,10 @@ margin-left: 20px;
     background-color: rgb(233, 255, 248);
     
   }
+  .block-button button:active{
+    background-color: rgb(67, 252, 193);
+  }
   p{
-    font-size: 15px;
+    font-size: 0.9em;
     margin-left: 20px;
   }
