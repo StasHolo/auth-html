@@ -1,1 +1,13 @@
-test
+.menu-block button{
+  position: relative;
+  height: 50px;
+  width: 150px;
+  margin-left: 20px;
+  border-style: hidden;
+  background-color: rgb(255, 233, 205);
+  transition-duration: 1s, 3s;
+  transition-property: transform, background-color;
+  transition-delay: 0, 500ms;
+  transition-timing-function: ease;
+}
+
