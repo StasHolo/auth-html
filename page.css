@@ -4,6 +4,7 @@
 --general-block-size: 100%;
 --color-button-hover: rgb(233, 255, 248);
 --color-button-active: rgb(67, 252, 193);
+--kakoeto-znachenie: 4;
 }
 body{
   top: 0;
@@ -36,13 +37,13 @@ top: 50%;
   display: flex;
   justify-content: center;
   position: relative;
-  top: 50%;
+  top: calc(20% * var(--kakoeto-znachenie) - 30%);
   margin-top: 10px;
   }
   .block-button button{
 background-color: var(--color-button);
-width: 120px;
-height: 40px;
+width: calc(100px + 20px);
+height: calc(10px * var(--kakoeto-znachenie));
 border-radius: 10px;
 margin-left: 20px;
   }
@@ -54,6 +55,6 @@ margin-left: 20px;
     background-color: var(--color-button-active);
   }
   p{
-    font-size: 0.9em;
+    font-size: calc(1em - 0.1em);
     margin-left: 20px;
   }
